@@ -1,13 +1,17 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/wait.h>
-#include <sys/types.h>
 
-char **fetch_command(char **lineptr, size_t *n, FILE *stream, const char *delim);
+#include <stddef.h>
 
-#endif /*_MAIN_H_*/
+size_t my_getline(char *buf, size_t size);
+void env_builtin();
+void split_command(char *input, char *command, char *args[]);
+void execute_command(char *command, char *args[]);
+char *find_command_path(char *command);
+extern char **environ;
+void execute_builtin_exit(char *args[]);
+
+
+
+#endif
