@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* main - the main function
+* main - the main function that process shell command.
 *
-* @ac: number of args
-* @av: args passed
-* Return: 0 success.
+* @ac: number of argument.
+* @av: array of argument.
+* Return: Exit code (0) success.
 */
 int main(int ac, char **av)
 {

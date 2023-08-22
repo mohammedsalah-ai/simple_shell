@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* execute_command - a function that executes a command
+* execute_command - Executes a command and handle process status.
 *
-* @command: a NULL terminated pointer of command tokens
-* @errs: number of errors that occurred
-* @exit_code: shell exit code.
+* @command: Pointer to NULL-terminated array of command.
+* @errs: Pointer to the number of errors that occurred.
+* @exit_code: Pointer to the shell's exit code.
 */
 void execute_command(char **command, int *errs, int *exit_code)
 {
