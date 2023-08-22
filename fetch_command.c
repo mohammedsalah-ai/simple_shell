@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-* fetch_command - gets the command from the user
+* fetch_command - Reads and processes a command input from the user.
 *
-* @sh: pointer to switch on or off the shell
+* @sh: Pointer to control the shell's operations (switch on/off)
 *
-* Return: an array pointers that consists of command tokens
-* or NULL of something failed.
+* Return: An array of pointers representing command tokens, or NULL if there's an issue.
 */
 char **fetch_command(int *sh)
 {
