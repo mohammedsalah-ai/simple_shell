@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* stripf - removes leading and trailing whitespaces,
-* also leaves only while space between tokens
+* stripf - Removes leading and trailing whitespaces, and reduce multiple spaces between tokens
+*		to a single space.
 *
-* @line: string to be stripped
+* @line: Pointer to the string to be stripped
 */
 void stripf(char *line)
 {

@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* tokenizef - tokenizes a string to its simple tokens.
+* tokenizef - Tokenize a string into simple tokens usimg space as delimeter.
 *
-* @line: string to be tokenized, delimiter is a space.
-* Return: an array pointers that consists of the command tokens
+* @line: Pointer to the string to be tokenized.
+* Return: An array of pointers representing the command tokens.
 */
 char **tokenizef(char **line)
 {
