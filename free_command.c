@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* free_command - frees commands
+* free_command - Frees memory associated with a command array.
 *
-* @command: command to be freed.
+* @command: Pointer to the array of command tokens to be freed.
 */
 void free_command(char **command)
 {

@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* isexef - determines if a command name is executable or in path or not.
+* isexef - Determines if a command name is executable or in path or not.
 *
 * @cmdname: pointer to the first token of the command.
 * Return: 0 if not executable,
-* 1 if executable is found in path,
-* 2 if full executable pathname was passed.
+* 	1 if executable is found in path,
+* 	2 if full executable pathname was passed.
 */
 int isexef(char **cmdname)
 {
