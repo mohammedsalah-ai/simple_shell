@@ -5,7 +5,8 @@
 *
 * @sh: Pointer to control the shell's operations (switch on/off)
 *
-* Return: An array of pointers representing command tokens, or NULL if there's an issue.
+* Return: An array of pointers representing command tokens,
+* or NULL if there's an issue.
 */
 char **fetch_command(int *sh)
 {

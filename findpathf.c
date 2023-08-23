@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* findpathf - searches through the directories in the PATH environment variables
-* 		to locate the executable command.
+* findpathf - searches through the directories in the
+* PATH environment variables
+* to locate the executable command.
 *
 * @cmdname: Pointer to the command to be executed.
 */
